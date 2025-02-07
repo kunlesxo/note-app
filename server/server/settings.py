@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-_2v%=za1i)34ax1bci!cdbsf87+#rehag33p-@_q^ig4xa$ty8'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['brief-cornela-cirus-a1de0cb4.koyeb.app']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'server.wsgi.application'
+WSGI_APPLICATION = "server.wsgi.application"
 
 
 # Database
